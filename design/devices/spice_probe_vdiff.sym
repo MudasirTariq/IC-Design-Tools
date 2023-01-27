@@ -1,0 +1,15 @@
+v {xschem version=3.1.0 file_version=1.2
+}
+G {}
+K {type=differential_probe
+format=".save v(@@p\\\\) v(@@m\\\\)"
+template="name=p1"}
+V {}
+S {}
+E {}
+L 15 0 -15 0 -10 {}
+L 15 -2.5 -12.5 2.5 -12.5 {}
+L 15 -2.5 12.5 2.5 12.5 {}
+B 5 -1.25 -21.25 1.25 -18.75 {name=p dir=in}
+B 5 -1.25 18.75 1.25 21.25 {name=m dir=in}
+T {@spice_get_diff_voltage} 1.875 -6.09375 0 0 0.2 0.2 {layer=15 hcenter=true}

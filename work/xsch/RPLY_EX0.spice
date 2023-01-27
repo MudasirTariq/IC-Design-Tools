@@ -1,15 +1,11 @@
 ** sch_path: /home/mudasir/lpro/rply_ex0/work/../design/RPLY_EX0_SKY130NM/RPLY_EX0.sch
-.subckt RPLY_EX0
-
-*  x1 -  border_s  IS MISSING !!!!
-*  p1 -  ipin  IS MISSING !!!!
-*  p2 -  ipin  IS MISSING !!!!
-*  p3 -  ipin  IS MISSING !!!!
-XM1 net2 net2 net1 net1 sky130_fd_pr__nfet_01v8 L=0.36 W=3.6 nf=2 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
-+ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
-+ sa=0 sb=0 sd=0 mult=1 m=1
-XM2 net3 net2 net1 net1 sky130_fd_pr__nfet_01v8 L=0.36 W=3.6 nf=2 ad='int((nf+1)/2) * W/nf * 0.29' as='int((nf+2)/2) * W/nf * 0.29'
-+ pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)' nrd='0.29 / W' nrs='0.29 / W'
-+ sa=0 sb=0 sd=0 mult=1 m=1
+.subckt RPLY_EX0 IBPS_4U VSS IBNS_20U
+*.PININFO IBPS_4U:I VSS:I IBNS_20U:I
+XM1 IBPS_4U IBPS_4U VSS VSS sky130_fd_pr__nfet_01v8 L=0.36 W=3.6 nf=2 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=1 m=1
+XM2 IBNS_20U IBPS_4U VSS VSS sky130_fd_pr__nfet_01v8 L=0.36 W=3.6 nf=2 ad='int((nf+1)/2) * W/nf * 0.29'
++ as='int((nf+2)/2) * W/nf * 0.29' pd='2*int((nf+1)/2) * (W/nf + 0.29)' ps='2*int((nf+2)/2) * (W/nf + 0.29)'
++ nrd='0.29 / W' nrs='0.29 / W' sa=0 sb=0 sd=0 mult=5 m=5
 .ends
 .end

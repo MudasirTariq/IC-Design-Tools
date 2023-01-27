@@ -39,13 +39,6 @@ N -460 -590 -450 -590 {
 lab=IBNS_20U}
 N -690 -590 -650 -590 {
 lab=IBPS_4U}
-C {cborder/border_s.sym} 520 0 0 0 {
-user="wulff"
-company="wulff"}
-C {ipin.sym} -690 -590 0 0 {name=p1 lab=IBPS_4U}
-C {ipin.sym} -700 -460 0 0 {name=p2 lab=VSS
-}
-C {ipin.sym} -450 -590 0 1 {name=p3 lab=IBNS_20U}
 C {/home/mudasir/.volare/sky130B/libs.tech/xschem/sky130_fd_pr/nfet_01v8.sym} -630 -520 0 1 {name=M1
 L=0.36
 W=3.6
@@ -64,7 +57,7 @@ C {/home/mudasir/.volare/sky130B/libs.tech/xschem/sky130_fd_pr/nfet_01v8.sym} -5
 L=0.36
 W=3.6
 nf=2 
-mult=1
+mult=5
 ad="'int((nf+1)/2) * W/nf * 0.29'" 
 pd="'2*int((nf+1)/2) * (W/nf + 0.29)'"
 as="'int((nf+2)/2) * W/nf * 0.29'" 
@@ -74,3 +67,6 @@ sa=0 sb=0 sd=0
 model=nfet_01v8
 spiceprefix=X
 }
+C {/home/mudasir/lpro/rply_ex0/design/devices/ipin.sym} -690 -590 0 0 {name=p1 lab=IBPS_4U}
+C {/home/mudasir/lpro/rply_ex0/design/devices/ipin.sym} -700 -460 0 0 {name=p2 lab=VSS}
+C {/home/mudasir/lpro/rply_ex0/design/devices/ipin.sym} -450 -590 0 1 {name=p3 lab=IBNS_20U}

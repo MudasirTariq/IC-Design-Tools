@@ -1,0 +1,4 @@
+
+Checking parameters for BSIM 4.5 model xdut.xm1:sky130_fd_pr__nfet_01v8__model.24
+Warning: Pdibl1 = -0.24878 is negative.
+Warning: Pdibl2 = -0.00032814 is negative.

@@ -1,0 +1,37 @@
+ibn:
+  src:
+    - ibns_20u
+    - ibns_20u_9n
+  typ: 20
+  name: Output current
+  min: -20%
+  max:  20%
+  scale: 1e6
+  digits: 3
+  unit: uA
+
+
+vgs:
+   src:
+      - vgs_m1
+   name: Gate-Source voltage
+   typ: 0.6
+   min: 0.3
+   max: 0.7
+   scale: 1
+   digits: 3
+   unit: V   
+        
+err:
+   src:
+       - ibn_settl_err
+   name: Current settling error
+   typ: 0
+   min: -2
+   max: 2
+   scale: 1e9
+   digits: 3
+   unit: nA
+
+
+

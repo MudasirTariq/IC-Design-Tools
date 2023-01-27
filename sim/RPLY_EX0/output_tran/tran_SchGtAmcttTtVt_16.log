@@ -1,0 +1,44 @@
+Warning: Step size potentially too small.
+
+Checking parameters for BSIM 4.5 model xdut.xm2:sky130_fd_pr__nfet_01v8__model.24
+Warning: Pdibl1 = -0.24878 is negative.
+Warning: Pdibl2 = -0.00032814 is negative.
+
+Checking parameters for BSIM 4.5 model xdut.xm1:sky130_fd_pr__nfet_01v8__model.24
+Warning: Pdibl1 = -0.24878 is negative.
+Warning: Pdibl2 = -0.00032814 is negative.
+Note: Transient op started
+Note: Transient op finished successfully
+******
+** ngspice-38+ : Circuit level simulation program
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2022, The ngspice team.
+** Please get your ngspice manual from http://ngspice.sourceforge.net/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+** Creation Date: Wed Dec 28 22:58:06 UTC 2022
+******
+
+Note: No compatibility mode selected!
+
+
+Circuit: cicsimgen tran
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vss                                          0
+ibps_4u                                0.40339
+ibns_20u                                     1
+v0#branch                          0.000664716
+vss#branch                        -0.000660716
+
+ Reference value :  1.60000e-12
+No. of Data Rows : 1003
+binary raw file "tran_SchGtAmcttTtVt_16.raw"
+ngspice-38+ done
