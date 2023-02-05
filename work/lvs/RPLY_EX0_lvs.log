@@ -1,0 +1,39 @@
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+Warning: Equate pins:  cell sky130_fd_pr__nfet_01v8 is a placeholder, treated as a black box.
+
+Subcircuit pins:
+Circuit 1: sky130_fd_pr__nfet_01v8         |Circuit 2: sky130_fd_pr__nfet_01v8         
+-------------------------------------------|-------------------------------------------
+1                                          |1                                          
+2                                          |2                                          
+3                                          |3                                          
+4                                          |4                                          
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+Flattening unmatched subcell sky130_fd_pr__nfet_01v8_5CE34N in circuit RPLY_EX0 (0)(6 instances)
+
+Class RPLY_EX0 (0):  Merged 10 parallel devices.
+Subcircuit summary:
+Circuit 1: RPLY_EX0                        |Circuit 2: RPLY_EX0                        
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (12->2)            |sky130_fd_pr__nfet_01v8 (6->2)             
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 3                          |Number of nets: 3                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: RPLY_EX0                        |Circuit 2: RPLY_EX0                        
+-------------------------------------------|-------------------------------------------
+IBPS_4U                                    |IBPS_4U                                    
+IBNS_20U                                   |IBNS_20U                                   
+VSS                                        |VSS                                        
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes RPLY_EX0 and RPLY_EX0 are equivalent.
+
+Final result: Circuits match uniquely.
+.

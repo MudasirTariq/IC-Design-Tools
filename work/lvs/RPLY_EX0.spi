@@ -1,0 +1,17 @@
+* NGSPICE file created from RPLY_EX0.ext - technology: sky130B
+
+.subckt sky130_fd_pr__nfet_01v8_5CE34N a_n261_n534# a_101_n360# a_n159_n360# a_n29_n360#
++ a_29_n448# a_n101_n448#
+X0 a_n29_n360# a_n101_n448# a_n159_n360# a_n261_n534# sky130_fd_pr__nfet_01v8 ad=1.044e+12p pd=7.78e+06u as=1.044e+12p ps=7.78e+06u w=3.6e+06u l=360000u
+X1 a_101_n360# a_29_n448# a_n29_n360# a_n261_n534# sky130_fd_pr__nfet_01v8 ad=1.044e+12p pd=7.78e+06u as=0p ps=0u w=3.6e+06u l=360000u
+.ends
+
+.subckt RPLY_EX0 IBPS_4U VSS IBNS_20U
+Xsky130_fd_pr__nfet_01v8_5CE34N_0 VSS VSS VSS IBNS_20U IBPS_4U IBPS_4U sky130_fd_pr__nfet_01v8_5CE34N
+Xsky130_fd_pr__nfet_01v8_5CE34N_1 VSS VSS VSS IBNS_20U IBPS_4U IBPS_4U sky130_fd_pr__nfet_01v8_5CE34N
+Xsky130_fd_pr__nfet_01v8_5CE34N_2 VSS VSS VSS IBNS_20U IBPS_4U IBPS_4U sky130_fd_pr__nfet_01v8_5CE34N
+Xsky130_fd_pr__nfet_01v8_5CE34N_3 VSS VSS VSS IBPS_4U IBPS_4U IBPS_4U sky130_fd_pr__nfet_01v8_5CE34N
+Xsky130_fd_pr__nfet_01v8_5CE34N_4 VSS VSS VSS IBNS_20U IBPS_4U IBPS_4U sky130_fd_pr__nfet_01v8_5CE34N
+Xsky130_fd_pr__nfet_01v8_5CE34N_5 VSS VSS VSS IBNS_20U IBPS_4U IBPS_4U sky130_fd_pr__nfet_01v8_5CE34N
+.ends
+

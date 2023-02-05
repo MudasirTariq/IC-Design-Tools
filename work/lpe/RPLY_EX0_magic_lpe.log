@@ -1,0 +1,23 @@
+
+Magic 8.3 revision 358 - Compiled on to. 29. des. 03:11:10 +0100 2022.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130B ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130B Device Generator Menu ...
+Loading "lpe/RPLY_EX0_lpe.tcl" from command line.
+File <../design/RPLY_EX0_SKY130NM/RPLY_EX0.mag> is already locked by pid 3088.  Opening read-only.
+File <sky130_fd_pr__nfet_01v8_5CE34N.mag> is already locked by pid 3088.  Opening read-only.
+Warning:  Parent cell lists instance of "sky130_fd_pr__nfet_01v8_5CE34N" at bad file path ../design/RPLY_EX0_SKY130NM/sky130_fd_pr__nfet_01v8_5CE34N.mag.
+The cell exists in the search paths at sky130_fd_pr__nfet_01v8_5CE34N.mag.
+The discovered version will be used.
+Extracting sky130_fd_pr__nfet_01v8_5CE34N into sky130_fd_pr__nfet_01v8_5CE34N.ext:
+Extracting RPLY_EX0 into ../design/RPLY_EX0_SKY130NM/RPLY_EX0.ext:
+Warning: multiple input files specified; ignoring "capacitance"
+exttospice finished.
