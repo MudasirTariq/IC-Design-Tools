@@ -30,7 +30,7 @@ ibns_20u                                     1
 v0#branch                          4.44935e-07
 vss#branch                         3.55506e-06
 
- Reference value :  1.60000e-12 Reference value :  1.21228e-08
+ Reference value :  1.60000e-12 Reference value :  1.27328e-08
 No. of Data Rows : 2003
 binary raw file "tran_LayGtAttTtVt.raw"
 ngspice-38+ done

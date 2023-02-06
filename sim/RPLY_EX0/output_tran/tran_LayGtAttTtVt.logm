@@ -9,13 +9,13 @@ Loading raw data file ("tran_LayGtAttTtVt.raw") ...
 done.
 Title:  cicsimgen tran
 Name: Transient Analysis
-Date: Sun Feb  5 18:45:49  2023
+Date: Sun Feb  5 20:02:31  2023
 
 Here are the vectors currently active:
 
 Title: cicsimgen tran
 Name: tran1 (Transient Analysis)
-Date: Sun Feb  5 18:45:49  2023
+Date: Sun Feb  5 20:02:31  2023
 
     i(v0)               : current, real, 2003 long
     time                : time, real, 2003 long [default scale]

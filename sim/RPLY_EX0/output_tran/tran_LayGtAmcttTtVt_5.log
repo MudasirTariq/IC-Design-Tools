@@ -1,0 +1,36 @@
+Warning: Step size potentially too small.
+Note: Transient op started
+Note: Transient op finished successfully
+******
+** ngspice-38+ : Circuit level simulation program
+** The U. C. Berkeley CAD Group
+** Copyright 1985-1994, Regents of the University of California.
+** Copyright 2001-2022, The ngspice team.
+** Please get your ngspice manual from http://ngspice.sourceforge.net/docs.html
+** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html
+** Creation Date: Wed Dec 28 22:58:06 UTC 2022
+******
+
+Note: No compatibility mode selected!
+
+
+Circuit: cicsimgen tran
+
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+vss                                          0
+ibps_4u                               0.263411
+ibns_20u                                     1
+v0#branch                           4.4499e-07
+vss#branch                         3.55501e-06
+
+ Reference value :  1.60000e-12 Reference value :  1.36628e-08
+No. of Data Rows : 2003
+binary raw file "tran_LayGtAmcttTtVt_5.raw"
+ngspice-38+ done

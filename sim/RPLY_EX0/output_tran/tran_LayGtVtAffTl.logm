@@ -1,0 +1,29 @@
+Note: No ".plot", ".print", or ".fourier" lines; no simulations run
+
+Note: No compatibility mode selected!
+
+
+Circuit: * measure rply_ex0
+
+Loading raw data file ("tran_LayGtVtAffTl.raw") ...
+done.
+Title:  cicsimgen tran
+Name: Transient Analysis
+Date: Sun Feb  5 20:03:49  2023
+
+Here are the vectors currently active:
+
+Title: cicsimgen tran
+Name: tran1 (Transient Analysis)
+Date: Sun Feb  5 20:03:49  2023
+
+    i(v0)               : current, real, 2003 long
+    time                : time, real, 2003 long [default scale]
+    v(ibns_20u)         : voltage, real, 2003 long
+    v(ibps_4u)          : voltage, real, 2003 long
+    v(vss)              : voltage, real, 2003 long
+MEAS_START
+ibns_20u            =  2.232775e-05
+vgs_m1              =  6.393009e-01
+ibns_20u_9n         =  1.962393e-05
+MEAS_END
